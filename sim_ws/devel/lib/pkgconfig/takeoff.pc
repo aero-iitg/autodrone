@@ -1,0 +1,8 @@
+prefix=/home/aero/sim_ws/devel
+
+Name: takeoff
+Description: Description of takeoff
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/aero/sim_ws/devel/lib 
+Requires: 
