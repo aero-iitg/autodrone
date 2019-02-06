@@ -122,6 +122,8 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/aero/sim_ws/build/gtest/cmake_install.cmake")
+  include("/home/aero/sim_ws/build/rplidar_ros/cmake_install.cmake")
+  include("/home/aero/sim_ws/build/follow/cmake_install.cmake")
   include("/home/aero/sim_ws/build/takeoff/cmake_install.cmake")
 
 endif()

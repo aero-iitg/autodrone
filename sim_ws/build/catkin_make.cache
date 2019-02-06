@@ -1,2 +1,2 @@
-takeoff
+follow:rplidar_ros:takeoff
 -DCATKIN_DEVEL_PREFIX=/home/aero/sim_ws/devel -DCMAKE_INSTALL_PREFIX=/home/aero/sim_ws/install -G Unix Makefiles
