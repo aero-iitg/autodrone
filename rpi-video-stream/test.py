@@ -5,7 +5,7 @@ import numpy
 FFMPEG_BIN = "ffmpeg"
 command = [ FFMPEG_BIN,
         '-i', 'fifo264',
-        'pix_fmt', 'bgr24',
+        '-pix_fmt', 'bgr24',
         '-vcodec', 'rawvideo',
         '-an', '-sn',
         '-f', 'image2pipe', '-' ]
